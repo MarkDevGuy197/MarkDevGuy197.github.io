@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    background-color: #c8d86c65; 
+    color: rgb(0, 0, 0);  
+}
+p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin: 20px; 
+}
+
+h1 {
+    background-color: #276129; 
+    padding: 20px; 
+    text-align: center; 
+    margin: 0; 
+    color: white;
+}
+div {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+ul {
+    text-align: center;
+}
+nav {
+    background-color: rgb(9, 74, 0);
+    padding: 10px; 
+    text-align: center; 
+}
+nav a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+a {
+    color: #ffffff; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+.gifs {
+    text-align: center;
+    
+}
+.gifs img { /* Corrigido para usar img diretamente */
+    border-style: groove;
+}
